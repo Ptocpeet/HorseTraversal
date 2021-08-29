@@ -1,0 +1,31 @@
+ /*
+    //滑动条显示坐标
+    QScrollArea *scrollArea = new QScrollArea(this);
+    scrollArea->setBackgroundRole(QPalette::Midlight);  // 背景色
+    scrollArea->setGeometry(850,40,350,580);
+    QVBoxLayout *myLayout = new QVBoxLayout(this);
+    QFont font;
+    font.setFamily("新宋体");
+    font.setPointSize(15);
+    QWidget *newWidget=new QWidget;
+    newWidget->setParent(this);
+    newWidget->setGeometry(840,30,370,600);
+    for(int i=0;i<15;i++){
+        QLabel *info=new QLabel;
+        info->setParent(newWidget);
+        QString str1=QString(" 第%1步坐标为:\n").arg(i);
+        info->setText(str1);
+        info->setFont(font);
+        info->setFixedSize(350,50);
+        myLayout->addWidget(info);
+
+//        myLayout->addStretch();
+    }
+    newWidget->setLayout(myLayout);
+    scrollArea->setWidget(newWidget);
+    QVBoxLayout *mainLayout = new QVBoxLayout(this);
+    mainLayout->addWidget(scrollArea);
+    this->setLayout(mainLayout);
+//    scrollArea->setAlignment(Qt::AlignCenter);
+//    scrollArea->addAction()
+    */

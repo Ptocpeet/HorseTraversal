@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/BackButtonSound.mp3</file>
+        <file>res/background1.jpg</file>
+        <file>res/chessManM.mp3</file>
+        <file>res/Failed.wav</file>
+        <file>res/Finish.mp3</file>
+        <file>res/horse.png</file>
+        <file>res/MenuSceneStartButton.png</file>
+        <file>res/TapButtonSound.wav</file>
+        <file>res/Tital.png</file>
+        <file>res/Tital2.png</file>
+        <file>res/StartButton.png</file>
+        <file>res/CloseButton.jpg</file>
+        <file>res/CloseButton2.png</file>
+        <file>res/background2.jpg</file>
+        <file>res/BackButton.png</file>
+        <file>res/play.jpg</file>
+        <file>res/line.png</file>
+        <file>res/loding.gif</file>
+        <file>res/loding2.gif</file>
+        <file>res/loding3.gif</file>
+        <file>res/loading4.gif</file>
+        <file>res/failed.png</file>
+        <file>res/succeed.png</file>
+        <file>res/BackButtonSound2.wav</file>
+        <file>res/chessManM2.wav</file>
+        <file>res/Finish2.wav</file>
+    </qresource>
+</RCC>
